@@ -1,0 +1,168 @@
+body {
+    background-color: azure;
+}
+p {
+    color: aqua;
+}
+h1 {
+    color: aquamarine;
+}
+h2 {
+    color: blue;
+}
+.mobil {
+    color: red;
+}
+a[href] {
+    color: rgb(226, 43, 104);
+}
+.coba {
+    font-family: "Impact", Arial;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-shadow: -4px 4px 4px red;
+    line-height: 50%;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: left;
+    text-indent: 2rem;
+}
+.coba1 {
+    font-family: 'Sofia';font-size: 50px;
+}
+.coba2 {
+    font-family: 'Tangerine';font-size: 50px;
+}
+ul {
+    list-style-type: decimal-leading-zero;
+}
+.padding {
+    padding: 25px;
+}
+.padding1 {
+    background-color: lightblue;
+    width: 900px;
+    height: 500px;
+}
+.pading3 {
+    color: white;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+.border {
+    background-color: lightblue;
+    width: 900px; height: 500px;
+}
+.border1 {
+    color: white; background-color: blue;
+    padding: 25px;
+    border: 20px ridge yellow;
+    border-radius: 10px;
+    box-shadow: -0.5rem 0.5rem 1rem gray;
+}
+.margin {
+    background-color: lightblue;
+    width: 900px; height: 500px;
+    margin-left: 200px;
+}
+.margin1 {
+    color: white; background-color: blue;
+    padding: 25px;
+    border: 20px ridge yellow;
+}
+
+/* box 2 D */
+.coba3 {
+    background-color: pink;
+    width: 200px;
+    height: 100px
+}
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    transform: translate(100px, 100px);
+}
+.box1 {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    transform: rotate(45deg);
+}
+.box3 {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    transform: scale(0.75, 1.25);
+}
+.box4 {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    transform: skew(5deg, 10deg);
+}
+.box5 {
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    background-color: purple;
+    transform: skew(15deg, 7deg)
+    rotate(125deg);
+}
+/* box 3D */
+.box6 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: red;
+    transform: perspective(700px)
+   translateX(100px);
+}
+.box7 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: red;
+    transform: perspective(700px)
+   translateY(100px);
+}
+.box8 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: red;
+    transform: perspective(700px)
+   translateZ(200px);
+}
+.box9 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: red;
+    transform: perspective(700px)
+   rotateX(45deg);
+}
+.box10 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: red;
+    transform: perspective(700px)
+   rotateY(45deg);
+}
+.box11 {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: red;
+    transform: perspective(700px)
+   rotateZ(45deg);
+}
